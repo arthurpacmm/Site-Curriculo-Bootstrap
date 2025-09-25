@@ -1,0 +1,452 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Bootstrap demo</title>
+  </head>
+  <body>
+<header>
+  <nav class="navbar navbar-expand-lg Menucor fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img class="logo" src="img/download-removebg-preview.png" alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse minhafonte" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+
+          <li class="nav-item">
+            <a class="nav-link minhafonte" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link minhafonte" href="#sobre">Sobre</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link minhafonte" href="#competencias">Competências</a>
+          </li>
+
+          <!-- Dropdown Projetos -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle minhafonte" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Projetos
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end">
+              <li><a class="dropdown-item" href="#projetos">Projetos</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#photoshop">Photoshop</a></li>
+            </ul>
+          </li>
+
+          <!-- Dropdown Turma -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle minhafonte" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Turma
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end">
+              <li><a class="dropdown-item" href="#eventos">Evento - SPF</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#turma">Minha Turma</a></li>
+            </ul>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+    <section>
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner pad">
+          <div class="carousel-item active">
+            <img src="img/Carrosel 1200x300/teste.portifolio.PNG" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/Carrosel 1200x300/teste.portifolio.PNG" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/Carrosel 1200x300/teste.portifolio.PNG" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+<hr>
+
+    <main class="my-4 container">
+        <section id="sobre">
+            <h1 class="text-center">Sobre</h1>
+            <br>
+            <div class="container text-center">
+                <div class="row">
+                  <div class="col-12 col-md-6">
+                    <img src="img/preto.png" class="img-fluid" alt="...">
+                  </div>
+                  <div class="col-12 col-md-6">
+                    <div class="accordion" id="accordionExample">
+                      <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Ensino Fundamental.
+                          </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium molestias laborum facilis tenetur odio. Hic fugiat laudantium dignissimos, fugit quod amet veniam doloribus laboriosam perspiciatis officiis quidem quae natus Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum similique quae nisi quod? Aspernatur, vero? Reiciendis, eum porro tempore dolores rerum veniam libero atque quis in assumenda magni cumque necessitatibus!</voluptas></p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Ensino Médio.
+                          </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut obcaecati quae blanditiis nisi ratione molestiae esse id eveniet delectus, porro voluptatibus maiores. Porro excepturi quisquam ut, impedit vitae ducimus velit! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi earum laudantium perferendis corporis atque! Tempora labore odit quidem architecto iusto reprehenderit molestias, voluptatibus porro ratione amet error, modi sequi beatae.</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Como pretendo iniciar na carreira de programação.
+                          </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae iste fugiat asperiores tenetur recusandae temporibus esse, labore, commodi quo corporis accusamus obcaecati ut dignissimos, quae atque quas in consequatur. Dolorem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum necessitatibus in cum rem sed saepe eius suscipit velit qui. Impedit voluptas mollitia et ratione, quaerat corrupti? Impedit blanditiis reiciendis nemo!</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            Objetivos e metas.
+                          </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum saepe, ducimus reprehenderit totam ut quaerat? Reiciendis rem ad numquam dolor possimus dolore velit ducimus id ipsum, repellendus natus magnam odio! Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita labore illo rem, nam autem pariatur maxime? Aut, error eum facilis explicabo reiciendis minima impedit quam, at assumenda dicta rem corporis!
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                            Meu convívio social.
+                          </button>
+                        </h2>
+                        <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore, molestias! Ab id quisquam, et incidunt culpa sint ipsum quas, velit molestiae suscipit ipsa voluptates distinctio reprehenderit dolorem, molestias deleniti ea? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab, quo soluta. Numquam alias necessitatibus harum dignissimos pariatur quae tenetur maiores, optio nisi, voluptatem, nemo illum deleniti. Quaerat commodi explicabo quae!</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>               
+              </div>
+
+        </section>
+
+        <br>
+        <hr>
+
+<section id="competencias" class="container my-4">
+  <h1 class="text-center mb-4">Competências mais desenvolvidas</h1>
+
+  <div class="row g-4">
+    <div class="col-12 col-md-6 col-lg-3">
+      <div class="card h-100 overflow-hidden">
+        <img src="img/cards/interesse_para_aprender.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title center-title">Interesse para aprender</h5>
+          <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic assumenda blanditiis sapiente a quibusdam vero nisi ad praesentium provident explicabo repellat mollitia distinctio architecto eum sint, quasi labore obcaecati magni?</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-md-6 col-lg-3">
+      <div class="card h-100 overflow-hidden">
+        <img src="img/cards/respeito.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title center-title">Respeito</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat consectetur ducimus quaerat accusantium necessitatibus aliquid enim accusamus eaque libero est cumque, dolores eius error optio quis officia quisquam. Possimus, repudiandae?</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-md-6 col-lg-3">
+      <div class="card h-100 overflow-hidden">
+        <img src="img/cards/cooperação.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title center-title">Cooperação</h5>
+          <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias odit voluptatibus perspiciatis sunt inventore? Delectus quos soluta error tempora saepe. Numquam omnis voluptate, assumenda ea labore minus est rem autem!</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-md-6 col-lg-3">
+      <div class="card h-100 overflow-hidden">
+        <img src="img/cards/responsabilidade.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title center-title">Responsabilidade</h5>
+          <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor, adipisci placeat sed voluptatibus nulla quos neque eius odit recusandae iste rem ipsa non natus temporibus rerum dolorum doloribus vitae minima?</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<br>
+<hr>
+
+    <section id="projetos">
+      <h1>Projetos</h1>
+      <br>
+      <div class="card text-center">
+        <div class="card-header">
+          <ul class="nav nav-tabs card-header-tabs">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="true" href="#">Seminários</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.canva.com/design/DAGzLltMSEE/AvKNmBxx8xPXduVFfb3u8Q/edit?utm_content=DAGzLltMSEE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">Estudo de Competências</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.canva.com/design/DAGwcfQxI10/kfAhwCUdGMNCR4UwuAZ5aQ/edit?utm_content=DAGwcfQxI10&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">Estudo Cândido Portinari</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.canva.com/design/DAGxB-qA44k/EwBWgIa5U-GYE7cNaUh1xQ/edit?utm_content=DAGxB-qA44k&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">Projeto Herói - Ética</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.canva.com/design/DAGoOEaw3Mg/QZ8-yl9zt6MIQL8hL4QVxA/edit?utm_content=DAGoOEaw3Mg&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">Hero Project - English</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.canva.com/design/DAGiMyU2iEA/ac2Y2C-kQoO5k8VSPP7S2Q/edit?utm_content=DAGiMyU2iEA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">Study - South Africa</a>
+            </li>
+          
+          </ul>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Seminários</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit expedita excepturi recusandae officiis ipsam, exercitationem quis adipisci non ad sunt ipsa beatae at inventore natus deserunt facilis atque impedit dolorem.</p>
+        </div>
+      </div>
+
+      <br>
+      <div class="card text-center">
+        <div class="card-header">
+          <ul class="nav nav-tabs card-header-tabs">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="true" href="#">Projetos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://arthurpacmm.github.io/Meu_Primeiro_Site/index.html">Site - Consciência Ambiental</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.youtube.com/watch?v=lxeOjIr4ktc">Encenação - The Big Bang Theory</a>
+            </li>
+          
+          </ul>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">PROJETOS - Gerais</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit expedita excepturi recusandae officiis ipsam, exercitationem quis adipisci non ad sunt ipsa beatae at inventore natus deserunt facilis atque impedit dolorem.</p>
+        </div>
+      </div>
+    </section>
+    
+<br>
+<hr>
+
+<section id="photoshop">
+  <h1>Recreações com Photoshop</h1>
+
+  <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" aria-label="Slide 5"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="5" aria-label="Slide 6"></button>
+    </div>
+
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="10000">
+        <img src="img/photoshop/mickey.png" class="d-block w-100" alt="Mickey">
+        <div class="carousel-caption d-none d-md-block">
+        </div>
+      </div>
+
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="img/photoshop/meninas_super_poderosas.png" class="d-block w-100" alt="Meninas Super Poderosas">
+        <div class="carousel-caption d-none d-md-block">
+        </div>
+      </div>
+
+      <div class="carousel-item" data-bs-interval="4000">
+        <img src="img/preto.png" class="d-block w-100" alt="Gasparzinho">
+        <div class="carousel-caption d-none d-md-block">
+        </div>
+      </div>
+
+      <div class="carousel-item" data-bs-interval="4000">
+        <img src="img/photoshop/homer.png" class="d-block w-100" alt="Homer">
+        <div class="carousel-caption d-none d-md-block">
+        </div>
+      </div>
+
+      <div class="carousel-item" data-bs-interval="4000">
+        <img src="img/photoshop/picapau.png" class="d-block w-100" alt="Pica-Pau">
+        <div class="carousel-caption d-none d-md-block">
+        </div>
+      </div>
+
+      <div class="carousel-item" data-bs-interval="4000">
+        <img src="img/photoshop/stitch.png" class="d-block w-100" alt="Stitch">
+        <div class="carousel-caption d-none d-md-block">
+        </div>
+      </div>
+    </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</section>
+
+<br>
+<hr>
+
+<section id="eventos" class="container my-5">
+  <h1 class="text-center mb-4">Evento - SPF</h1>
+
+  <div class="row g-4">
+    <div class="col-12 col-md-6">
+      <div class="card h-100 overflow-hidden">
+        <div id="carouselVideos" class="carousel slide">
+          <div class="carousel-inner">
+
+            <div class="carousel-item active">
+              <div class="ratio ratio-16x9">
+                <video controls>
+                  <source src="video/spfvideo1.mp4" type="video/mp4">
+                  Seu navegador não suporta vídeos.
+                </video>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="ratio ratio-16x9">
+                <video controls>
+                  <source src="video/spfvideo2.mp4" type="video/mp4">
+                  Seu navegador não suporta vídeos.
+                </video>
+              </div>
+            </div>
+
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselVideos" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselVideos" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </button>
+        </div>
+
+        <div class="card-body">
+          <h5 class="card-title">Vídeos do evento</h5>
+          <p class="card-text">Aqui ficam os vídeos principais do evento.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-md-6">
+      <div class="card h-100 overflow-hidden">
+        <div id="carouselFotos" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+          <div class="carousel-inner">
+
+            <div class="carousel-item active">
+              <img src="img/spf/fotospf3.jfif" class="d-block w-100" alt="Foto 1">
+            </div>
+
+            <div class="carousel-item">
+              <img src="img/spf/fotospf1.jfif" class="d-block w-100" alt="Foto 2">
+            </div>
+
+            <div class="carousel-item">
+              <img src="img/spf/fotospf2.jfif" class="d-block w-100" alt="Foto 3">
+            </div>
+
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselFotos" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselFotos" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </button>
+        </div>
+
+        <div class="card-body">
+          <h5 class="card-title">Galeria de fotos</h5>
+          <p class="card-text">Alguns registros visuais do evento.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<br>
+<hr>
+
+<section id="turma" class="container my-5 text-center">
+  <h1 class="mb-4">Nossa Turma</h1>
+  <img src="img/spf/fototurma.jfif" class="img-fluid rounded shadow" alt="Foto da turma">
+</section>
+
+
+    </main>
+    <footer class="footer">
+      <h3 class="gostoso">Criado por Arthur Pereira - Todos os Direitos Reservados</h3></footer>
+    <script src="js/bootstrap.bundle.js"></script>
+  </body>
+</html>
+

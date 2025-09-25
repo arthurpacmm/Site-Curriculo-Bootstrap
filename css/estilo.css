@@ -1,0 +1,117 @@
+.Menucor {
+    background-color: rgb(169, 171, 184);
+}
+
+.imgcarrosel {
+    width: 100%;  
+    max-height: 450px;
+    display: block;    
+    margin-left: auto;  
+    margin-right: auto;   
+}
+
+body {
+    background-color: rgb(187, 188, 196);
+}
+
+#carouselExample {
+    display: flex;
+    justify-content: center;  /* Centraliza o carrossel horizontalmente */
+    align-items: center;      /* Centraliza o carrossel verticalmente */
+    margin: 0;
+}
+
+h1{
+    text-align: center;
+}
+
+.logo{
+    max-width: 80px;
+}
+
+.minhafonte{
+    font-size: 1.5rem;
+    color: #000;
+}
+
+.bloco{
+    border: #00b solid;
+}
+
+/* Botão ativo (quando aberto) */
+.accordion-button:not(.collapsed) {
+    background-color: #879EBA; /* azul claro (pode trocar por outro tom) */
+    color: #fff; /* deixa o texto branco para melhor contraste */
+  }
+  
+  /* Botão em foco (quando clicado) */
+  .accordion-button:focus {
+    border-color: #0000ff; /* azul escuro */
+    box-shadow: 0 0 0 0.25rem rgba(0, 0, 200, 0.5); /* sombra azul escuro suave */
+  }
+  
+  .card{
+    border-radius: 20px;
+    box-shadow: 0 8px 16px rgba(0 , 0 , 0 , 0.3);
+  }
+
+  .card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba( 0, 0, 0, 0.4);
+  }
+
+  .center-title{
+    text-align: center;
+  }
+
+  .pad{
+    padding-top: 100px;
+  }
+
+  .footer{
+    text-align: center;
+    padding: 20px;
+    font-size: 1.5em;
+    background-color: #a9abb8;
+    color: black;
+  }
+
+  .gostoso{
+    text-shadow: 0 1px 2px #000088;
+
+  }
+
+  #carouselExampleDark .carousel-item{
+    height: 360px;       
+  }
+
+  #carouselExampleDark .carousel-item img{
+    max-height: 100%;       
+    width: auto;           
+    object-fit: contain;     
+    margin: 0 auto;          
+    display: block;
+  }
+
+
+  #carouselExampleDark .carousel-item.active,
+  #carouselExampleDark .carousel-item-next,
+  #carouselExampleDark .carousel-item-prev{
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+  }
+
+.card video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border: 0;
+}
+
+html {
+  scroll-padding-top: 100px; /* altura da navbar */
+  scroll-behavior: smooth;  /* deixa a rolagem suave */
+}
+
